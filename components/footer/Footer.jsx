@@ -35,17 +35,17 @@ const Footer = () => {
             <div className="flex text-slate-900 font-medium flex-col gap-3">
               <div className="flex items-center">
                 <GoLocation className="mr-3 text-xl md:text-lg" />
-                <p className="mr-3 text-sm">
+                <p className="mr-3 text-xs">
                   King Solomon&#39;s Height, 26, Mango St, Accra
                 </p>
               </div>
               <div className="flex items-center">
                 <BsTelephoneX className="mr-3 text-xl md:text-lg" />
-                <p className="mr-3 text-sm">030 280 2935</p>
+                <p className="mr-3 text-xs">030 280 2935</p>
               </div>
               <div className="flex items-center">
                 <AiOutlineMail className="mr-3 text-xl md:text-lg" />
-                <p className="mr-3 text-sm">info@sfanonline.org</p>
+                <p className="mr-3 text-xs">info@sfanonline.org</p>
               </div>
             </div>
             <div className="flex mt-4">
