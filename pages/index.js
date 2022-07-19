@@ -8,10 +8,14 @@ import News from "../components/news/News";
 import Partner from "../components/partner/partner";
 import Subscribe from "../components/subscribe/Subscribe";
 import Testimonial from "../components/testimonial/Testimonial";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <div className="mx-auto max-w-screen-2xl overflow-x-hidden flex-col flex items-center justify-center ">
+      <Head>
+        <title>Sfanonline - Home</title>
+      </Head>
       <Hero />
       <Partner />
       <Inspiration />
