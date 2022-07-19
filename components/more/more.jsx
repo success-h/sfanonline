@@ -25,8 +25,6 @@ const More = () => {
             src="/more.png"
             alt="/more"
             layout="fill"
-            width="100%"
-            height="100%"
             objectFit="contain"
           />
         </div>
